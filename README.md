@@ -1,4 +1,4 @@
-# EQIBridge Stake And Earn Cross Chain
+# EQIBridge Stake And Earn + Cross Chain
 
 EQI SWAP is a complete decentralised Defi application platform including features like stake, farm,lending, borrowing and Dex. [Check Our 
 
