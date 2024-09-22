@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  /* background: linear-gradient(180deg, #ffffff 0%, rgba(120, 37, 213, 0.3) 100%); */
+  background: #020202;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h6 {
+  color: white;
+}
+h5 {
+  color: white;
+}
+h4 {
+  color: #f9f9f9;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+  /* font-weight: 100; */
+}
+
+.card-theme {
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.02)
+  );
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5), -1px -1px 2px #121827,
+    1px 1px 2px #555;
+  backdrop-filter: blur(0.8rem);
+  /* padding: 1.5rem; */
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* New CSS */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+thead {
+  height: 30px;
+}
+td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Progress bar */
+
+.containered {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 950px) {
+  .containered {
+    width: 90%;
+    text-align: left;
+  }
+}
+.progress {
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar {
+  height: 18px;
+  background-color: #ee303c;
+  border-radius: 4px;
+  transition: 0.4s linear;
+  transition-property: 90%, #2c303a;
+}
+
+.progress2 {
+  padding: 0px;
+  border-radius: 30px;
+  background: rgba(119, 119, 119, 0.3);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar2 {
+  height: 12px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved .progress-bar2 {
+  width: 30%;
+  background: linear-gradient(to right, #8247e5, #bd31d3);
+  animation: progressAnimation 6s;
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 5%;
+    background-color: #8247e5;
+  }
+  100% {
+    width: 35%;
+    background-color: #bd31d3;
+  }
+}
