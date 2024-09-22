@@ -1,6 +1,6 @@
 # PolkaBridge Stake And Earn
 
-PolkaBridge is a complete decentralised Defi application platform including features like stake, farm,lending, borrowing and Dex. [Check Our Landing Page](https://polkabridge.org).
+EQI SWAP is a complete decentralised Defi application platform including features like stake, farm,lending, borrowing and Dex. [Check Our 
 
 ![Stake Page Screenshot](stake.png?raw=true "Stake Page Screenshot")
 
